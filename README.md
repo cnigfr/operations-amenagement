@@ -7,11 +7,11 @@ Le géostandard CNIG Opérations d'aménagement est en cours d'élaboration. Il 
 
 ## Contexte
 
-< en cours de rédaction >
+*< en cours de rédaction >*
 
 ## Cadre juridique
 
-< en cours de rédaction >
+*< en cours de rédaction >*
   
 - La directive européenne INSPIRE impose aux autorités publiques de publier sur Internet leurs données environnementales géographiques et de les partager entre elles. Les informations relatives aux opérations d'aménagement intègrent le **thème 4 "Usage des sols" de l'annexe III** de la directive.
 
