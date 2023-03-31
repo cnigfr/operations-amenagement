@@ -20,6 +20,32 @@ L'opération d'aménagement n'est ainsi définie que par ses finalités, mais pa
 ## Finalité
 Le sous-groupe OA du GT CNIG Aménagement a pour objectif de **standardiser l'identification et la caractérisation des opérations d'aménagement, dans le but d'en dresser l'inventaire de façon homogène sur l'ensemble du territoire**.
 
+Il oeuvre pour permettre de :
+
+- identifier /recenser les opérations d’aménagement 
+  - les situer dans leur contexte territorial, économique, logement, emploi, etc.
+- qualifier les opérations d’aménagement
+  - type, superficie, date, durée, concessionnaire, nb logement, etc...
+  - qualification technique, économique, urbanistique (extension / renouvellement), etc.
+  - quel outil de mise en œuvre utilisé ? qui mène les opérations ? que produisent-elles ?
+- constituer une base de données
+  - support à tous types d’études et analyses
+  - facilitant la mise en réseau des acteurs, l’animation des territoires
+  - pour piloter (a priori) et évaluer (a posteriori) l’aménagement opérationnel
+  - permettant la connaissance et le suivi du marché
+  - permettant de capitaliser les données d’aménagement
+  - interopérable avec les autres systèmes d’informations
+- évaluer les résultats obtenus
+  - constructions de logements par rapport aux objectifs de planification
+  - mesure des écarts entre la programmation et la réalisation
+  - rythme de la construction...
+- suivre / évaluer les outils de mise en œuvre des politiques publiques
+- repérer des opérations exemplaires pour les valoriser
+
+
+
+
+
 Le **[GT CNIG Aménagement](http://cnig.gouv.fr/gt-friches-a25940.html)** et ses sous-groupes oeuvrent sous mandat de la **[Commission des Standards](http://cnig.gouv.fr/?page_id=640)** du Conseil National de l'Information Géolocalisée (CNIG). Le **[mandat du Groupe de Travail](http://cnig.gouv.fr/IMG/pdf/230119_mandat_gt_cnig_amenagement.pdf)** a été validé le 19 janvier 2023 par la Commission des standards.
 
 ## Stratégie
@@ -38,13 +64,15 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 
 ## Schéma Opérations d'aménagement
 
-Le standard CNIG Opérations d'aménagement fournit une description littérale des champs, non exlusivement technique.
+Le standard CNIG Opérations d'aménagement <fournit / fournira> une description littérale des champs, non exlusivement technique.
 
 Le fichier schema.json <contient / contiendra> **l'implémentation technique** du modèle conceptuel de données (MCD), au format json.
 
-Ce schéma (ou Modèle Conceptuel de Donées - MCD) modélise les informations relatives aux Opérations d'aménagement. Adopter et respecter ce schéma est une garantie, non seulement d’efficacité et de pertinence des informations collectées, mais aussi d’interopérabilité et de facilité du partage des données.
+Ce schéma (ou Modèle Conceptuel de Donées - MCD) modélise les informations relatives aux Opérations d'aménagement.
 
-Il respecte le standard [Table Schema](https://specs.frictionlessdata.io/table-schema/) et <est / sera> référencé sur [schema.data.gouv.fr](https://schema.data.gouv.fr). 
+Adopter et respecter ce schéma est une garantie, non seulement d’efficacité et de pertinence des informations collectées, mais aussi d’interopérabilité et de facilité du partage des données.
+
+Ce schéma respecte le standard [Table Schema](https://specs.frictionlessdata.io/table-schema/) et <est / sera> référencé sur [schema.data.gouv.fr](https://schema.data.gouv.fr). 
 
 ## Organisation du dépot
 
