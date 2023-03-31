@@ -13,7 +13,7 @@ L'opération d'aménagement n'est ainsi définie que par ses finalités, mais pa
 
 ## Cadre juridique
 
-- L'article L300-1 du code de l'urbanisme définit l'opération d'aménagement
+- [Art. L300-1 du code de l'urbanisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037666634/2018-11-25)
   
 - La directive européenne INSPIRE impose aux autorités publiques de publier sur Internet leurs données environnementales géographiques et de les partager entre elles. Les informations relatives aux opérations d'aménagement intègrent le **thème 4 "Usage des sols" de l'annexe III** de la directive.
 
