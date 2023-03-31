@@ -7,11 +7,13 @@ Le géostandard CNIG Opérations d'aménagement est en cours d'élaboration. Il 
 
 ## Contexte
 
-*< en cours de rédaction >*
+[Art. L300-1 du code de l'urbanisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037666634/2018-11-25) : *Les opérations d'aménagement ont pour objets de mettre en œuvre un **projet urbain**, une **politique locale de l'habitat**, d'organiser la mutation, le maintien, l'extension ou l'accueil des **activités économiques**, de favoriser le développement des **loisirs** et du **tourisme**, de réaliser des **équipements collectifs** ou des locaux de **recherche ou d'enseignement supérieur**, de lutter contre l'**insalubrité et l'habitat indigne ou dangereux**, de permettre le **renouvellement urbain**, de sauvegarder ou de mettre en valeur le **patrimoine bâti ou non bâti** et les **espaces naturels**, notamment en recherchant l'optimisation de l'utilisation des espaces urbanisés et à urbaniser.*
+
+L'opération d'aménagement n'est ainsi définie que par ses finalités, mais pas dans la richesse de toutes ses composantes.
 
 ## Cadre juridique
 
-*< en cours de rédaction >*
+- L'article L300-1 du code de l'urbanisme définit l'opération d'aménagement
   
 - La directive européenne INSPIRE impose aux autorités publiques de publier sur Internet leurs données environnementales géographiques et de les partager entre elles. Les informations relatives aux opérations d'aménagement intègrent le **thème 4 "Usage des sols" de l'annexe III** de la directive.
 
