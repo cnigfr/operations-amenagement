@@ -1,2 +1,2 @@
 
-Ce répertoire contient le (projet de) standard CNIG opérations d'aménagment
+Ce répertoire contient le (projet de) standard CNIG Opérations d'aménagement
