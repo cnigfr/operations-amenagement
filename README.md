@@ -1,5 +1,5 @@
-# Schema des opérations d'aménagement (OA)
-Dépot des documents et travaux du **[sous-groupe de travail OA](http://cnig.gouv.fr/gt-friches-a25940.html#Sous-groupe-Operations-d-amenagement)** du **[GT CNIG Aménagement](http://cnig.gouv.fr/gt-friches-a25940.html)**
+# Schema des opérations d'aménagement (OPAM)
+Dépot des documents et travaux du **[sous-groupe de travail OPAM](http://cnig.gouv.fr/gt-friches-a25940.html#Sous-groupe-Operations-d-amenagement)** du **[GT CNIG Aménagement](http://cnig.gouv.fr/gt-friches-a25940.html)**
 
 ## Géostandard CNIG Opérations d'aménagement
 
