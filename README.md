@@ -5,6 +5,8 @@ Dépot des documents et travaux du **[sous-groupe de travail OPAM](http://cnig.g
 
 Le géostandard CNIG Opérations d'aménagement est en cours d'élaboration. Il sera publié sur la page web des ressources du **[GT CNIG Aménagement](http://cnig.gouv.fr/gt-friches-a25940.html)**.
 
+![240103_image_couv_OPAM](https://github.com/cnigfr/operations-amenagement/assets/79853274/33f4074c-b824-47db-8dba-fdfbb32942f8)
+
 ## Contexte
 
 [Art. L300-1 du code de l'urbanisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037666634/2018-11-25) : *Les opérations d'aménagement ont pour objets de mettre en œuvre un **projet urbain**, une **politique locale de l'habitat**, d'organiser la mutation, le maintien, l'extension ou l'accueil des **activités économiques**, de favoriser le développement des **loisirs** et du **tourisme**, de réaliser des **équipements collectifs** ou des locaux de **recherche ou d'enseignement supérieur**, de lutter contre l'**insalubrité et l'habitat indigne ou dangereux**, de permettre le **renouvellement urbain**, de sauvegarder ou de mettre en valeur le **patrimoine bâti ou non bâti** et les **espaces naturels**, notamment en recherchant l'optimisation de l'utilisation des espaces urbanisés et à urbaniser.*
