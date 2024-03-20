@@ -9,7 +9,8 @@ Expériences actuellement recensées / à recenser :
   - [fiche repère](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/230308_BADORA_Fiche_repere_v1-4-2.pdf)
   - [fiche métadonnées](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/190614_BADORA_Fiche_metadonnees_v1.pdf) (spécification)
 - [projets d'aménagement en Île-de-France](https://www.institutparisregion.fr/uploads/ExportData/projets_amenagement.html) (Institut Paris Région)
-- projet d’aménagement dans le cadre de la [démarche ÉcoQuartier](http://www.ecoquartiers.logement.gouv.fr/)
-- observatoires des EPF, CAUE, Agences d’urbanisme
-- référentiels OPAM (Lyon, Nantes, Rennes, et autres Métropole)
-- bilan de l’opération fonds friches (Cerema)
+- Projet d’aménagement dans le cadre de la [démarche ÉcoQuartier](http://www.ecoquartiers.logement.gouv.fr/)
+- Observatoires des EPF, CAUE, Agences d’urbanisme
+- Référentiels OPAM (Lyon, Nantes, Rennes, et autres Métropole)
+- Opération fonds friches (Cerema)
+  - Structuration de la base des lauréats fonds friches et quelques résultats 
