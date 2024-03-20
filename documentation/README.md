@@ -13,4 +13,4 @@ Expériences actuellement recensées / à recenser :
 - Observatoires des EPF, CAUE, Agences d’urbanisme
 - Référentiels OPAM (Lyon, Nantes, Rennes, et autres Métropole)
 - Opération fonds friches (Cerema)
-  - Structuration de la base des lauréats fonds friches et quelques résultats 
+  - [Structuration de la base des lauréats fonds friches et exemples d'exploitation](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/240318_Pr%C3%A9sa_Fonds_Friches_JM.pdf)
