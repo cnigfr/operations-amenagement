@@ -11,6 +11,6 @@ Expériences actuellement recensées / à recenser :
 - [projets d'aménagement en Île-de-France](https://www.institutparisregion.fr/uploads/ExportData/projets_amenagement.html) (Institut Paris Région)
 - Projet d’aménagement dans le cadre de la [démarche ÉcoQuartier](http://www.ecoquartiers.logement.gouv.fr/)
 - Observatoires des EPF, CAUE, Agences d’urbanisme
-- Référentiels OPAM (Lyon, [Nantes](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240124_R%C3%A9f%C3%A9rentiel_OPAM_Nantes_M%C3%A9tropole_240130.pdf), [Rennes](cnigfr/operations-amenagement/documentation/fichiers/240419_Rennes_FicheSuivi_100_O-100_ZAC Baud-Chardonnet.pdf), et autres Métropole)
+- Référentiels OPAM (Lyon, [Nantes](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240124_R%C3%A9f%C3%A9rentiel_OPAM_Nantes_M%C3%A9tropole_240130.pdf), [Rennes](https://github.com/cnigfr/operations-amenagement/documentation/fichiers/240419_Rennes_FicheSuivi_100_O-100_ZAC_Baud-Chardonnet.pdf), et autres Métropole)
 - Opération fonds friches (Cerema)
   - [Structuration de la base des lauréats fonds friches et exemples d'exploitation](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240318_Pr%C3%A9sa_Fonds_Friches_JM.pdf)
