@@ -7,4 +7,4 @@ _Pour le télécharger, cliquez dessus puis cliquez sur :_
 
 _ou bien :_ 
 
-Clic-droit et "enregistrez-sous"
+Clic-droit et "Enregistrez la cible du lien sous"
