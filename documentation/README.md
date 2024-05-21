@@ -13,7 +13,7 @@ Expériences actuellement recensées / à recenser :
 - Observatoires des EPF, CAUE, Agences d’urbanisme
 - Référentiels OPAM
   - [Nantes](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240124_R%C3%A9f%C3%A9rentiel_OPAM_Nantes_M%C3%A9tropole_240130.pdf)
-  - [Rennes]
+  - Rennes - Urb@map
     - [FicheSuivi_100_O-100_ZAC_Baud-Chardonnet](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240419_Rennes_FicheSuivi_100_O-100_ZAC_Baud-Chardonnet.pdf)
     - [FicheSuivi_147_P-147_ZACBaud-Chardonnet](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240419_Rennes_FicheSuivi_147_P-147_ZAC_Baud-Chardonnet.pdf)
   - -Lyon
