@@ -15,7 +15,7 @@ Expériences actuellement recensées / à recenser :
   - [Nantes](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240124_R%C3%A9f%C3%A9rentiel_OPAM_Nantes_M%C3%A9tropole_240130.pdf)
   - [Rennes]
     - [FicheSuivi_100_O-100_ZAC_Baud-Chardonnet](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240419_Rennes_FicheSuivi_100_O-100_ZAC_Baud-Chardonnet.pdf)
-    - [FicheSuivi_147_P-147_ZACBaud-Chardonnet](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240419_Rennes_FicheSuivi_147_P-147_ZACBaud-Chardonnet.pdf)
+    - [FicheSuivi_147_P-147_ZACBaud-Chardonnet](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240419_Rennes_FicheSuivi_147_P-147_ZAC_Baud-Chardonnet.pdf)
   - -Lyon
 - Opération fonds friches (Cerema)
   - [Structuration de la base des lauréats fonds friches et exemples d'exploitation](https://github.com/cnigfr/operations-amenagement/blob/main/documentation/fichiers/240318_Pr%C3%A9sa_Fonds_Friches_JM.pdf)
