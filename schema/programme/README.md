@@ -7,7 +7,7 @@ Les programmes sont individuels et ne sont pas regroupés entre eux.
 ## Synonyme
 Programme et Opération immobilière sont ici employés dans un sens équivalent.
 
-## Sélecton
+## Sélection
 Toutes les opérations immobilières intégrées dans une opération d’aménagement.
 
 ## Modélisation géométrique
