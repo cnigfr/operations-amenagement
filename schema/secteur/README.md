@@ -1,4 +1,4 @@
-# Schéma Secteur
+# Secteur
 
 ## Définition
 Un secteur d’aménagement est situé dans une opération d’aménagement et en constitue une portion géographique. La réalisation des secteurs d’aménagement peut être échelonnée dans le temps.
