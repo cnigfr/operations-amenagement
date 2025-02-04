@@ -1,4 +1,4 @@
-# Schéma Opération d'aménagement
+# Opération d'aménagement
 
 ## Définition
 
