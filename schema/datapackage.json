@@ -21,7 +21,7 @@
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "secteur/schema.json",
+            "schema": "secteur/schema_secteur.json",
             "documentation": "secteur/README.md"
         },
         {
