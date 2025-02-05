@@ -164,7 +164,7 @@
          "name":"sect_geomsurf",
          "title":"géométrie",
          "description":"multi géométries surfaciques du périmètre du secteur d’aménagement au format geoJSON",
-         "example":"{\"\"type\"\": \"\"Polygon\"\", \"\"coordinates\"\": [ [ [ 656589.70, 6425785.32 ], [ 656655.02, 6425866.31 ], [ 656663.55, 6425874.43 ], [ 656589.707, 6425785.32 ] ] ] ] }",
+         "example": {"type": "Polygon", "coordinates": [[[30.0, 10.0],[40.0, 40.0],[20.0, 40.0],[10.0, 20.0],[30.0, 10.0]]]},
          "type":"geojson",
          "constraints":{
             "required":true
