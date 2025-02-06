@@ -11,7 +11,7 @@
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "operation-amenagement/schema.json",
+            "schema": "operation-amenagement/schema_operation-amenagement.json",
             "documentation": "operation-amenagement/README.md"
         },
         {
