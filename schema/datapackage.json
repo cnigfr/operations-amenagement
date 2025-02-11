@@ -31,7 +31,7 @@
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "programme/schema.json",
+            "schema": "programme/schema_programme.json",
             "documentation": "programme/README.md"
         }
     ]
