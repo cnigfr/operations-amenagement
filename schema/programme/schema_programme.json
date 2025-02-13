@@ -151,7 +151,7 @@
       {
          "name":"prog_ban_id",
          "title":"référence à l'adresse principale",
-         "description":"référence à l'adresse principale du programme dans la base adresse nationale, en utilisant le champ : id_ban_adresse",
+         "description":"référence à l'adresse principale du programme dans la base adresse nationale, en utilisant le champ : id_ban_adresse",
          "example":"",
          "type":"string",
          "constraints":{
@@ -381,8 +381,8 @@
       },
       {
          "name":"surf_esp_public",
-         "title":"‍surface des espaces publics ",
-         "description":"‍surface des espaces publics (m² terrain) ",
+         "title":"surface des espaces publics ",
+         "description":"surface des espaces publics (m² terrain) ",
          "example":"0",
          "type":"integer",
          "constraints":{
@@ -662,3 +662,4 @@
       "NC"
    ],
    "primaryKey":"programme_id"
+}
