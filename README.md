@@ -5,7 +5,7 @@ Dépot des documents et travaux du **[sous-groupe de travail OPAM](http://cnig.g
 
 Le géostandard CNIG Opérations d'aménagement est en cours d'élaboration. Il sera publié sur la page web des ressources du **[GT CNIG Aménagement](http://cnig.gouv.fr/gt-friches-a25940.html)**.
 
-![240606_illustration pour std OPAM couv_OPAM](https://github.com/user-attachments/assets/ffed6a02-efba-4862-ac7d-30fec58c9cb8)
+![240614_illustration pour std OPAM couv_OPAM+Crédit](https://github.com/user-attachments/assets/8abd190b-a4a9-433d-8d9e-c6618a0c7f77)
 
 
 ## Contexte
