@@ -42,7 +42,7 @@
       }
    ],
    "created":"2024-05-24",
-   "lastModified":"2025-02-04",
+   "lastModified":"2025-02-14",
    "version":"v1.0.0",
    "contributors":[
       {
@@ -110,6 +110,17 @@
          }
       },
       {
+         "name":"date_prev_realisation",
+         "title":"date prévisionnelle de réalisation",
+         "description":"date prévisionnelle de réalisation",
+         "example":"2030-06-01",
+         "type":"date",
+         "format":"%Y-%m-%d",
+         "constraints":{
+            "required":false
+         }
+      },
+      {
          "name":"etat_avancement",
          "title":"état d’avancement",
          "description":"état d’avancement du secteur",
@@ -126,8 +137,8 @@
             "en cours",
             "livré",
             "annulé",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -166,7 +177,33 @@
          "name":"sect_geomsurf",
          "title":"géométrie",
          "description":"multi géométries surfaciques du périmètre du secteur d’aménagement au format geoJSON",
-         "example": {"type": "Polygon", "coordinates": [[[30.0, 10.0],[40.0, 40.0],[20.0, 40.0],[10.0, 20.0],[30.0, 10.0]]]},
+         "example":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     30.0,
+                     10.0
+                  ],
+                  [
+                     40.0,
+                     40.0
+                  ],
+                  [
+                     20.0,
+                     40.0
+                  ],
+                  [
+                     10.0,
+                     20.0
+                  ],
+                  [
+                     30.0,
+                     10.0
+                  ]
+               ]
+            ]
+         },
          "type":"geojson",
          "constraints":{
             "required":true
