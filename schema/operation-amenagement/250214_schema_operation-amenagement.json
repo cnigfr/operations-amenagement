@@ -63,7 +63,7 @@
          "name":"opam_id",
          "title":"identifiant",
          "description":"identifiant de l’opération d’aménagement",
-         "example":"78418_OPERATION-AMENAGEMENT_053",
+         "example":"78418_OPERATION-AMENAGEMENT_0053",
          "type":"string",
          "constraints":{
             "required":true

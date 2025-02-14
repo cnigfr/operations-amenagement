@@ -63,7 +63,7 @@
          "name":"sect_id",
          "title":"secteur d’aménagement",
          "description":"identifiant du secteur d’aménagement",
-         "example":"78418_SECTEUR_053_001",
+         "example":"78418_SECTEUR_0001",
          "type":"string",
          "constraints":{
             "required":true
@@ -73,7 +73,7 @@
          "name":"opam_id",
          "title":"opération d’aménagement",
          "description":"identifiant de l’opération d’aménagement à laquelle appartient le secteur d’aménagement",
-         "example":"78418_OPERATION-AMENAGEMENT_053",
+         "example":"78418_OPERATION-AMENAGEMENT_0053",
          "type":"string",
          "constraints":{
             "required":true
