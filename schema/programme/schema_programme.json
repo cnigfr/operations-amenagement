@@ -203,7 +203,7 @@
          "name":"prog_nom_moe",
          "title":"nom du (des) maître(s) d’œuvre",
          "description":"nom du (des) maître(s) d’œuvre",
-         "example":"Dupont & Richard Construction et asociés",
+         "example":"Dupont & Richard Construction et associés",
          "type":"string",
          "constraints":{
             "required":true
