@@ -42,7 +42,7 @@
       }
    ],
    "created":"2024-05-24",
-   "lastModified":"2025-02-05",
+   "lastModified":"2025-02-14",
    "version":"v1.0.0",
    "contributors":[
       {
@@ -93,8 +93,8 @@
             "permis d’aménager",
             "permis de construire valant division",
             "association foncière urbaine",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -120,8 +120,8 @@
             "extension",
             "renouvellement urbain",
             "mixte",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -151,8 +151,8 @@
             "espace vert",
             "mobilité",
             "mixte",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -180,10 +180,15 @@
          "title":"opérations d’aménagement contiguës",
          "description":"le site présente (oui / non) plusieurs opérations d’aménagement contiguës",
          "example":"non",
-         "type":"boolean",
+         "type":"string",
          "constraints":{
-            "required":false
-         }
+            "required":true
+         },
+         "enum":[
+            "oui",
+            "non",
+            "non renseigné"
+         ]
       },
       {
          "name":"date_autorisation",
@@ -213,8 +218,8 @@
             "en cours",
             "livré",
             "annulé",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -253,7 +258,7 @@
       {
          "name":"nom_EPCI",
          "title":"nom de l‘EPCI",
-         "description":"nom de la communauté de communes",
+         "description":"nom de la communauté de communes, la principale si plusieurs",
          "example":"Communauté d'Agglomération Saint Germain Boucles de Seine",
          "type":"string",
          "constraints":{
@@ -263,7 +268,7 @@
       {
          "name":"siren_EPCI",
          "title":"code SIREN de l’EPCI",
-         "description":"code SIREN de la communauté de communes",
+         "description":"code SIREN de la communauté de communes, la principale si plusieurs",
          "example":"200058519",
          "type":"string",
          "constraints":{
@@ -273,7 +278,7 @@
       {
          "name":"nom_commune",
          "title":"nom de la commune",
-         "description":"nom de la commune",
+         "description":"nom de la commune, la principale si plusieurs",
          "example":"Montesson",
          "type":"string",
          "constraints":{
@@ -359,8 +364,8 @@
             "SEM ou EPL",
             "privé",
             "bailleur social",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -386,8 +391,8 @@
             "régie",
             "mandat",
             "concession",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -437,10 +442,14 @@
          "title":"portage par un établissement public foncier",
          "description":"portage (oui / non) par un établissement public foncier",
          "example":"oui",
-         "type":"boolean",
+         "type":"string",
          "constraints":{
-            "required":false
-         }
+            "required":true
+         },
+         "enum":[
+            "oui",
+            "non"
+         ]
       },
       {
          "name":"densite_brute",
@@ -635,8 +644,8 @@
             "espace vert",
             "bassin d'orage ou de rétention",
             "production d’énergie renouvelable",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -786,8 +795,8 @@
             "publics en insertion",
             "gens du voyage",
             "mixte",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -1064,10 +1073,14 @@
          "title":"existence d’une OAP de quartier",
          "description":"existence (oui / non) d’une OAP de quartier",
          "example":"oui",
-         "type":"boolean",
+         "type":"string",
          "constraints":{
             "required":true
-         }
+         },
+         "enum":[
+            "oui",
+            "non"
+         ]
       },
       {
          "name":"situation_initiale",
@@ -1082,8 +1095,8 @@
             "friche",
             "espace naturel agricole ou forestier",
             "renouvellement urbain",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -1133,8 +1146,8 @@
             "certification HQE Aménagement Durable",
             "label Quartier Bâtiment Durable",
             "aucun",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -1155,8 +1168,8 @@
             "action cœur de ville",
             "petite ville de demain",
             "aucun",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
