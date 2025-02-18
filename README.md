@@ -21,7 +21,7 @@ L'opération d'aménagement n'est ainsi définie que par ses finalités, mais pa
 - La directive européenne INSPIRE impose aux autorités publiques de publier sur Internet leurs données environnementales géographiques et de les partager entre elles. Les informations relatives aux opérations d'aménagement intègrent le **thème 4 "Usage des sols" de l'annexe III** de la directive.
 
 ## Finalité
-Le sous-groupe OA du GT CNIG Aménagement a pour objectif de **standardiser l'identification et la caractérisation des opérations d'aménagement, dans le but d'en dresser l'inventaire de façon homogène sur l'ensemble du territoire**.
+Le sous-groupe OPAM du GT CNIG Aménagement a pour objectif de **standardiser l'identification et la caractérisation des opérations d'aménagement, dans le but d'en dresser l'inventaire de façon homogène sur l'ensemble du territoire**.
 
 Il oeuvre pour permettre de :
 
@@ -67,9 +67,9 @@ L’objectif est d'aboutir à terme à un consensus qui se traduise en un standa
 
 ## Schéma Opérations d'aménagement
 
-Le standard CNIG Opérations d'aménagement <fournit / fournira> une description littérale des champs, non exlusivement technique.
+Le standard CNIG Opérations d'aménagement fournit une description littérale des champs, non exlusivement technique.
 
-Le fichier schema.json <contient / contiendra> **l'implémentation technique** du modèle conceptuel de données (MCD), au format json.
+Le fichier schema.json contient **l'implémentation technique** du modèle conceptuel de données (MCD), au format json.
 
 Ce schéma (ou Modèle Conceptuel de Donées - MCD) modélise les informations relatives aux Opérations d'aménagement.
 
@@ -82,16 +82,16 @@ Ce schéma respecte le standard [Table Schema](https://specs.frictionlessdata.io
 * Le répertoire [bibliographie](https://github.com/cnigfr/operations-amenagement/tree/main/bibliographie) contient les documents utiles au groupe de travail.
 * Le répertoire [reunions](https://github.com/cnigfr/operations-amenagement/tree/main/reunions) contient les compte-rendus de réunions et les documents de suivi du groupe de travail.
 * Le répertoire [standard](https://github.com/cnigfr/operations-amenagement/tree/main/standard) contient le standard CNIG Opérations d'aménagement publié, sous **forme littérale** (.odt et/ou .pdf) avec les rubriques documentaires connexes (contexte, recommandations, métadonnées, etc.).
-* Le fichier schema.json contient **l'implémentation technique** du modèle conceptuel de données (MCD), au format json destiné à être référencé sur schema.data.gouv.fr.
+* Les fichiers schema.json contiennet **l'implémentation technique** du modèle conceptuel de données (MCD), au format json destiné à être référencé sur schema.data.gouv.fr.
 
 ## Informations et participation au groupe de travail
 Pour être tenu au courant et/ou participer aux échanges du GT CNIG Aménagement et ses sous-groupes, merci de [contacter le CNIG](http://cnig.gouv.fr/spip.php?page=contact). Il est également possible de s'abonner à la [lettre d'information du CNIG](http://cnig.gouv.fr/).
 
 ## Contributions
-N'hésitez pas à utiliser les [Issues de ce Github](https://github.com/cnigfr/operations-amenagement/issues) pour toute expression de besoin, proposition d'amélioration du projet de standard OA, retour utilisateur, etc.
+N'hésitez pas à utiliser les [Issues de ce Github](https://github.com/cnigfr/operations-amenagement/issues) pour toute expression de besoin, proposition d'amélioration du projet de standard Opération d'aménagement, retour utilisateur, etc.
 
 ## Actualisation
-Le projet de standard OA, puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utlisateurs.
+Le projet de standard Opération d'aménagement, puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utlisateurs.
 
 Les ressources associées et les bases de données correspondantes seront actualisées conformément au standard CNIG Opérations d'aménagement.
 Les mises à jour de base de données sont effectuées en modifiant le cas échéant les données qui y figurent déjà.
