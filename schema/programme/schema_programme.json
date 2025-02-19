@@ -42,7 +42,7 @@
       }
    ],
    "created":"2024-05-24",
-   "lastModified":"2025-02-12",
+   "lastModified":"2025-02-14",
    "version":"v1.0.0",
    "contributors":[
       {
@@ -125,8 +125,8 @@
             "espace vert",
             "mobilité",
             "mixte",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -144,8 +144,8 @@
             "démolition",
             "extension",
             "changement de destination",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -526,8 +526,8 @@
             "publics en insertion",
             "gens du voyage",
             "mixte",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -547,8 +547,8 @@
             "en chantier",
             "livré",
             "annulé",
-			"non renseigné",
-			"autre"
+            "non renseigné",
+            "autre"
          ]
       },
       {
@@ -608,8 +608,8 @@
       },
       {
          "name":"prog_identif_date",
-         "title":"date d'identification",
-         "description":"date d'identification du programme",
+         "title":"date des premières données",
+         "description":"date des premières données sur le programme",
          "example":"2023-04-30",
          "type":"date",
          "format":"%Y-%m-%d",
@@ -620,7 +620,7 @@
       {
          "name":"prog_actu_date",
          "title":"date de dernière actualisation",
-         "description":"date de dernière actualisation du programme",
+         "description":"date de dernière actualisation des données sur le programme",
          "example":"2024-06-15",
          "type":"date",
          "constraints":{
@@ -646,6 +646,38 @@
             "coordinates":[
                656589.70,
                6425785.32
+            ]
+         },
+         "type":"geojson",
+         "constraints":{
+            "required":true
+         }
+      },
+      {
+         "name":"prog_geomsurf",
+         "title":"géométrie surfacique",
+         "description":"géométrie surfacique du programme au format geoJSON (https://specs.frictionlessdata.io//table-schema/#geojson)",
+         "example":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     656589.70,
+                     6425785.32
+                  ],
+                  [
+                     656655.02,
+                     6425866.31
+                  ],
+                  [
+                     656663.55,
+                     6425874.43
+                  ],
+                  [
+                     656589.707,
+                     6425785.32
+                  ]
+               ]
             ]
          },
          "type":"geojson",

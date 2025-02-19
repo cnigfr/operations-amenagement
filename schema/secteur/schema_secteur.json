@@ -143,8 +143,8 @@
       },
       {
          "name":"sect_identif_date",
-         "title":"date d'identification",
-         "description":"date d'identification du secteur d’aménagement",
+         "title":"date des premières données",
+         "description":"date des premières données sur le secteur d’aménagement",
          "example":"2023-03-15",
          "type":"date",
          "format":"%Y-%m-%d",
@@ -155,7 +155,7 @@
       {
          "name":"sect_actu_date",
          "title":"date de dernière actualisation",
-         "description":"date de dernière actualisation du secteur d’aménagement",
+         "description":"date de dernière actualisation des données sur le secteur d’aménagement",
          "example":"2024-04-14",
          "type":"date",
          "format":"%Y-%m-%d",
@@ -182,24 +182,20 @@
             "coordinates":[
                [
                   [
-                     30.0,
-                     10.0
+                     656589.70,
+                     6425785.32
                   ],
                   [
-                     40.0,
-                     40.0
+                     656655.02,
+                     6425866.31
                   ],
                   [
-                     20.0,
-                     40.0
+                     656663.55,
+                     6425874.43
                   ],
                   [
-                     10.0,
-                     20.0
-                  ],
-                  [
-                     30.0,
-                     10.0
+                     656589.707,
+                     6425785.32
                   ]
                ]
             ]

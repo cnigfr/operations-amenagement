@@ -128,8 +128,8 @@
          "name":"duree_previsionnelle",
          "title":"durée prévisionnelle de l’opération",
          "description":"durée prévisionnelle de l’opération. (unité : année)",
-         "example":"14.5",
-         "type":"real",
+         "example":"14",
+         "type":"integer",
          "constraints":{
             "required":false
          }
@@ -198,7 +198,7 @@
          "type":"date",
          "format":"%Y-%m-%d",
          "constraints":{
-            "required":false
+            "required":true
          }
       },
       {
@@ -218,6 +218,7 @@
             "en cours",
             "livré",
             "annulé",
+            "en révision",
             "non renseigné",
             "autre"
          ]
@@ -345,7 +346,7 @@
          "example":"Yvelines aménagement",
          "type":"string",
          "constraints":{
-            "required":false
+            "required":true
          }
       },
       {
@@ -498,7 +499,7 @@
          "example":"125500",
          "type":"integer",
          "constraints":{
-            "required":false
+            "required":true
          }
       },
       {
@@ -625,14 +626,13 @@
          "name":"nature_equipt_public",
          "title":"nature des équipements publics",
          "description":"nature des équipements publics",
-         "example":"voirie et infrastructure|parking et stationnement|établissement de service public|espace vert",
+         "example":"parking et stationnement en ouvrage|établissement de service public|équipement culturel",
          "type":"string",
          "constraints":{
             "required":false
          },
          "enum":[
-            "voirie et infrastructure",
-            "parking et stationnement",
+            "parking et stationnement en ouvrage",
             "équipement de transport en commun",
             "établissement d'enseignement ou de recherche",
             "établissement de santé",
@@ -641,8 +641,6 @@
             "équipement culturel",
             "équipement d’action sociale",
             "équipement de culte",
-            "espace vert",
-            "bassin d'orage ou de rétention",
             "production d’énergie renouvelable",
             "non renseigné",
             "autre"
@@ -675,7 +673,7 @@
          "example":"1700",
          "type":"integer",
          "constraints":{
-            "required":false
+            "required":true
          }
       },
       {
@@ -830,23 +828,23 @@
          }
       },
       {
-         "name":"date_debut_travaux",
-         "title":"date de commencement des travaux",
-         "description":"date de commencement des travaux",
-         "example":"2022-11-15",
+         "name":"annee_debut_travaux",
+         "title":"année de commencement des travaux",
+         "description":"année de commencement des travaux",
+         "example":"2022",
          "type":"date",
-         "format":"%Y-%m-%d",
+         "format":"%Y",
          "constraints":{
             "required":false
          }
       },
       {
-         "name":"date_fin_travaux",
-         "title":"date d’achèvement des travaux",
-         "description":"date d’achèvement des travaux",
-         "example":"2036-06-30",
+         "name":"annee_fin_travaux",
+         "title":"année d’achèvement des travaux",
+         "description":"année d’achèvement des travaux",
+         "example":"2036",
          "type":"date",
-         "format":"%Y-%m-%d",
+         "format":"%Y",
          "constraints":{
             "required":false
          }
@@ -1196,8 +1194,8 @@
       },
       {
          "name":"opam_identif_date",
-         "title":"date d'identification de l’opération",
-         "description":"date d'identification de l’opération d’aménagement",
+         "title":"date des premières données",
+         "description":"date des premières données sur l’opération d’aménagement",
          "example":"2023-01-15",
          "type":"date",
          "format":"%Y-%m-%d",
@@ -1207,8 +1205,8 @@
       },
       {
          "name":"opam_actu_date",
-         "title":"date de dernière actualisation des informations",
-         "description":"date de dernière actualisation des informations sur l’opération",
+         "title":"date de dernière actualisation",
+         "description":"date de dernière actualisation des données sur l’opération d’aménagement",
          "example":"2024-02-14",
          "type":"date",
          "format":"%Y-%m-%d",
