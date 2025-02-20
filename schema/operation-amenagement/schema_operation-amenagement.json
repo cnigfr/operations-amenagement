@@ -42,7 +42,7 @@
       }
    ],
    "created":"2024-05-24",
-   "lastModified":"2025-02-19",
+   "lastModified":"2025-02-20",
    "version":"v1.0.0",
    "contributors":[
       {
@@ -623,9 +623,9 @@
          }
       },
       {
-         "name":"nature_equipt_public",
-         "title":"nature des équipements publics",
-         "description":"nature des équipements publics",
+         "name":"type_equipt_public_bati",
+         "title":"nature des équipements publics batis",
+         "description":"nature des équipements publics batis",
          "example":"parking et stationnement en ouvrage|établissement de service public|équipement culturel",
          "type":"string",
          "constraints":{
