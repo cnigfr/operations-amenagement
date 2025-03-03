@@ -650,7 +650,7 @@
          "name":"surf_esp_public",
          "title":"‍surface des espaces publics",
          "description":"surface des espaces publics (m² terrain)",
-         "example":"‍20000",
+         "example":20000,
          "type":"integer",
          "constraints":{
             "required":false
