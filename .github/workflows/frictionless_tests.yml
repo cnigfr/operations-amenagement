@@ -23,16 +23,16 @@ jobs:
       run: pip install -r requirements.txt
     - name: Vérification du schéma operation-amenagement et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema schema/operation-amenagement/schema.json
-        frictionless validate --schema schema/operation-amenagement/schema.json schema/operation-amenagement/exemple-valide.csv
+        frictionless validate --type schema schema/operation-amenagement/schema_operation-amenagement.json
+        frictionless validate --schema schema/operation-amenagement/schema_operation-amenagement.json schema/operation-amenagement/exemple-valide.csv
     - name: Vérification du schéma secteur et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema schema/secteur/schema.json
-        frictionless validate --schema schema/secteur/schema.json schema/secteur/exemple-valide.csv
+        frictionless validate --type schema schema/secteur/schema_secteur.json
+        frictionless validate --schema schema/secteur/schema_secteur.json schema/secteur/exemple-valide.csv
     - name: Vérification du schéma programme et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema schema/programme/schema.json
-        frictionless validate --schema schema/programme/schema.json schema/programme/exemple-valide.csv
+        frictionless validate --type schema schema/programme/schema_programme.json
+        frictionless validate --schema schema/programme/schema_programme.json schema/programme/exemple-valide.csv
     - name: Vérification du datapackage
       run: |
         frictionless validate schema/datapackage.json
