@@ -169,8 +169,8 @@
          "name":"surface_cessible",
          "title":"surface commercialisable",
          "description":"surface commercialisable (en ha). Emp. totale moins les espaces publics",
-         "example":"18",
-         "type":"string",
+         "example":18,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -456,8 +456,8 @@
          "name":"densite_brute",
          "title":"densité brute",
          "description":"nombre total de m² SdP / emprise totale (ha)",
-         "example":"6275",
-         "type":"real",
+         "example":6275,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -466,8 +466,8 @@
          "name":"densite_brute_logt",
          "title":"densité brute en équivalent logement",
          "description":"densité brute du projet en équivalent logement nombre total d’équivalent logement / emprise totale (ha)",
-         "example":"89",
-         "type":"real",
+         "example":89,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -476,8 +476,8 @@
          "name":"densite_nette",
          "title":"densité nette du projet",
          "description":"densité nette du projet nombre total de m² SdP / emprise cessible (ha)",
-         "example":"6994",
-         "type":"real",
+         "example":6994,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -486,8 +486,8 @@
          "name":"densite_nette_logt",
          "title":"densité nette du projet en équivalent logement",
          "description":"densité nette du projet en équivalent logement nombre total d’équivalent logement / emprise cessible (ha)",
-         "example":"99",
-         "type":"real",
+         "example":99,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -908,8 +908,8 @@
          "name":"depense_total",
          "title":"total des dépenses hors taxes",
          "description":"total des dépenses hors taxes sur l’opération (kilo €)",
-         "example":"20300",
-         "type":"real",
+         "example":20300,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -918,8 +918,8 @@
          "name":"depense_foncier",
          "title":"acquisitions foncières",
          "description":"acquisitions foncières (kilo €)",
-         "example":"5000",
-         "type":"real",
+         "example":5000,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -928,8 +928,8 @@
          "name":"depense_etudes",
          "title":"coût des études",
          "description":"coût des études (kilo €)",
-         "example":"1050",
-         "type":"real",
+         "example":1050,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -938,8 +938,8 @@
          "name":"depense_travaux",
          "title":"coût des travaux",
          "description":"coût des travaux (kilo €)",
-         "example":"9050",
-         "type":"real",
+         "example":9050,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -948,8 +948,8 @@
          "name":"depense_contributions",
          "title":"dépenses liées aux contributions et participation",
          "description":"dépenses liées aux contributions et participation (kilo €)",
-         "example":"1000",
-         "type":"real",
+         "example":1000,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -958,8 +958,8 @@
          "name":"depense_frais_annexes",
          "title":"dépenses liées aux frais annexes",
          "description":"dépenses liées aux frais annexes (kilo €)",
-         "example":"4200",
-         "type":"real",
+         "example":4200,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -968,8 +968,8 @@
          "name":"recette_total",
          "title":"total des recettes hors taxes sur l’opération",
          "description":"total des recettes hors taxes sur l’opération (kilo €)",
-         "example":"20300",
-         "type":"real",
+         "example":20300,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -978,8 +978,8 @@
          "name":"recette_cessions",
          "title":"recettes liées aux cessions, charges foncières",
          "description":"recettes liées aux cessions, charges foncières (kilo €)",
-         "example":"15000",
-         "type":"real",
+         "example":15000,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -988,8 +988,8 @@
          "name":"recette_loyers",
          "title":"recettes liées aux loyers",
          "description":"recettes liées aux loyers (kilo €)",
-         "example":"0",
-         "type":"real",
+         "example":0,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -998,8 +998,8 @@
          "name":"recette_contributions",
          "title":"recettes liées aux contributions publiques",
          "description":"recettes liées aux contributions publiques (pour les opérations d’initiative publique) (kilo €)",
-         "example":"3000",
-         "type":"real",
+         "example":3000,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -1008,8 +1008,8 @@
          "name":"recette_subventions",
          "title":"total des subventions",
          "description":"total des subventions (kilo €)",
-         "example":"2000",
-         "type":"real",
+         "example":2000,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -1018,8 +1018,8 @@
          "name":"recette_autres",
          "title":"total des autres recettes",
          "description":"toutes autres recettes (kilo €) : fonds d’investissement privés, produits bancaires, location de toiture pour production d’énergie solaire, etc",
-         "example":"300",
-         "type":"real",
+         "example":300,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -1028,8 +1028,8 @@
          "name":"recette_fiscalite_locale",
          "title":"recettes attendues en fiscalité locale",
          "description":"recettes attendues sous forme de fiscalité locale (kilo €)",
-         "example":"250",
-         "type":"real",
+         "example":250,
+         "type":"number",
          "constraints":{
             "required":false
          }
@@ -1101,8 +1101,8 @@
          "name":"emprise_ini_friche",
          "title":"emprise foncière initialement en friche",
          "description":"Emprise foncière (ha) initialement en friche, si situation_initiale = friche",
-         "example":"5.4",
-         "type":"real",
+         "example":5.4,
+         "type":"number",
          "constraints":{
             "required":false
          }
