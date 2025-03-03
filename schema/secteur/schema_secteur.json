@@ -104,9 +104,10 @@
          "title":"URL du plan masse",
          "description":"URL du plan masse du secteur",
          "example":"https://terres-ocres/info/plan-masse.fr/secteur_sud.html",
-         "type":"url",
+         "type":"string",
          "constraints":{
-            "required":false
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
          }
       },
       {

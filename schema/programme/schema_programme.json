@@ -173,7 +173,7 @@
          "title":"URL des médias photo, vue d’artiste, vidéo",
          "description":"URL des médias photo, vue d’artiste, vidéo du programme",
          "example":"https://terres-ocres/info/media.fr/secteur_sud/prog/les_alteralies.html",
-         "type":"url",
+         "type":"string",
          "constraints":{
             "required":false,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
@@ -184,9 +184,10 @@
          "title":"URL du plan masse",
          "description":"URL du plan masse du programme",
          "example":"https://terres-ocres/info/plan-masse.fr/secteur_sud/prog/les_alteralies.html",
-         "type":"url",
+         "type":"string",
          "constraints":{
-            "required":false
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
          }
       },
       {

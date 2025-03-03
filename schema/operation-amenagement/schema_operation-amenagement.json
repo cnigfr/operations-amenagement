@@ -228,7 +228,7 @@
          "title":"URL du site du projet",
          "description":"URL du site de présentation du projet",
          "example":"https://terres-ocres/info.fr",
-         "type":"url",
+         "type":"string",
          "constraints":{
             "required":false,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
@@ -239,7 +239,7 @@
          "title":"URL des médias",
          "description":"URL des médias photo, vue d’artiste, vidéo du projet",
          "example":"https://terres-ocres/info/media.fr",
-         "type":"url",
+         "type":"string",
          "constraints":{
             "required":false,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
@@ -250,7 +250,7 @@
          "title":"URL du plan masse",
          "description":"URL du plan masse",
          "example":"https://terres-ocres/info/plan-masse.fr",
-         "type":"url",
+         "type":"string",
          "constraints":{
             "required":false,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
@@ -1039,7 +1039,7 @@
          "title":"url GPU",
          "description":"url d’accès direct au géoportail de l’urbanisme. Sinon, renseigner par la mention : document d’urbanisme non publié",
          "example":"https://www.geoportail-urbanisme.gouv.fr/map/#tile=1&zoom=14&mlon=2.201085&mlat=48.898525 ",
-         "type":"url",
+         "type":"string",
          "constraints":{
             "required":true,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
@@ -1050,7 +1050,7 @@
          "title":"url règlement d’urbanisme dans le GPU",
          "description":"url d’accès direct au règlement d’urbanisme dans le GPU",
          "example":"https://data.geopf.fr/annexes/gpu/documents/DU_92050/92050_reglement_20230627.pdf",
-         "type":"url",
+         "type":"string",
          "constraints":{
             "required":true,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
