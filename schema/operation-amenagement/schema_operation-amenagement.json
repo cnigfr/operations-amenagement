@@ -159,8 +159,8 @@
          "name":"emprise_foncière",
          "title":"emprise foncière",
          "description":"emprise foncière (en ha)",
-         "example":"20",
-         "type":"real",
+         "example":20,
+         "type":"number",
          "constraints":{
             "required":true
          }
