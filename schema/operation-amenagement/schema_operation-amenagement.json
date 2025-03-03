@@ -1041,8 +1041,7 @@
          "example":"https://www.geoportail-urbanisme.gouv.fr/map/#tile=1&zoom=14&mlon=2.201085&mlat=48.898525",
          "type":"string",
          "constraints":{
-            "required":true,
-            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+            "required":true
          }
       },
       {
