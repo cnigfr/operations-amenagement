@@ -1038,7 +1038,7 @@
          "name":"url_gpu",
          "title":"url GPU",
          "description":"url d’accès direct au géoportail de l’urbanisme. Sinon, renseigner par la mention : document d’urbanisme non publié",
-         "example":"https://www.geoportail-urbanisme.gouv.fr/map/#tile=1&zoom=14&mlon=2.201085&mlat=48.898525 ",
+         "example":"https://www.geoportail-urbanisme.gouv.fr/map/#tile=1&zoom=14&mlon=2.201085&mlat=48.898525",
          "type":"string",
          "constraints":{
             "required":true,
