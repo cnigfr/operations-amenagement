@@ -21,22 +21,18 @@ jobs:
           ${{ runner.os }}-
     - name: Installation des dépendances
       run: pip install -r requirements.txt
-    - name: Vérification du schéma etablissement et des fichiers d'exemples associés
+    - name: Vérification du schéma operation-amenagement et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema schema/etablissement/schema.json
-        frictionless validate --schema schema/etablissement/schema.json schema/etablissement/exemple-valide.csv
-    - name: Vérification du schéma pole-eco et des fichiers d'exemples associés
+        frictionless validate --type schema schema/operation-amenagement/schema.json
+        frictionless validate --schema schema/operation-amenagement/schema.json schema/operation-amenagement/exemple-valide.csv
+    - name: Vérification du schéma secteur et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema schema/pole-eco/schema.json
-        frictionless validate --schema schema/pole-eco/schema.json schema/pole-eco/exemple-valide.csv
-    - name: Vérification du schéma site-eco et des fichiers d'exemples associés
+        frictionless validate --type schema schema/secteur/schema.json
+        frictionless validate --schema schema/secteur/schema.json schema/secteur/exemple-valide.csv
+    - name: Vérification du schéma programme et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema schema/site-eco/schema.json
-        frictionless validate --schema schema/site-eco/schema.json schema/site-eco/exemple-valide.csv
-    - name: Vérification du schéma terrain-eco et des fichiers d'exemples associés
-      run: |
-        frictionless validate --type schema schema/terrain-eco/schema.json
-        frictionless validate --schema schema/terrain-eco/schema.json schema/terrain-eco/exemple-valide.csv
+        frictionless validate --type schema schema/programme/schema.json
+        frictionless validate --schema schema/programme/schema.json schema/programme/exemple-valide.csv
     - name: Vérification du datapackage
       run: |
-        frictionless validate datapackage.json
+        frictionless validate schema/datapackage.json
