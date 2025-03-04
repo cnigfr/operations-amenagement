@@ -298,7 +298,7 @@
       },
       {
          "name":"opam_geomsurf",
-         "title":"périmètre de l’opération",
+         "title":"périmètre de l’opération d'aménagement",
          "description":"multi géométries surfaciques du périmètre de l’opération d’aménagement au format geoJSON(https://specs.frictionlessdata.io//table-schema/#geojson)",
          "example":{
             "type":"Polygon",
