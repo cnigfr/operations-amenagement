@@ -35,4 +35,4 @@ jobs:
         frictionless validate --schema schema/programme/schema_programme.json schema/programme/exemple-valide.csv
     - name: Vérification du datapackage
       run: |
-        frictionless validate schema/datapackage.json
+        frictionless validate datapackage.json
