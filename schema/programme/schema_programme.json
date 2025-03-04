@@ -159,7 +159,7 @@
          }
       },
       {
-         "name":"prog_reference_ADS",
+         "name":"prog_reference_ads",
          "title":"référence du dossier dans le système ADS",
          "description":"référence du dossier dans le système ADS de la collectivité",
          "example":"PC 78418 52-0458",
