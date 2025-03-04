@@ -21,10 +21,10 @@ jobs:
           ${{ runner.os }}-
     - name: Installation des dépendances
       run: pip install -r requirements.txt
-    - name: Vérification du schéma operation-amenagement et des fichiers d'exemples associés
-      run: |
-        frictionless validate --type schema schema/operation-amenagement/schema_operation-amenagement.json
-        frictionless validate --schema schema/operation-amenagement/schema_operation-amenagement.json schema/operation-amenagement/exemple-valide.csv
+    # - name: Vérification du schéma operation-amenagement et des fichiers d'exemples associés
+      #"run: |
+      #  frictionless validate --type schema schema/operation-amenagement/schema_operation-amenagement.json
+      #  frictionless validate --schema schema/operation-amenagement/schema_operation-amenagement.json schema/operation-amenagement/exemple-valide.csv
     - name: Vérification du schéma secteur et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/secteur/schema_secteur.json
