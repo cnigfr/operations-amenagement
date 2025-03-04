@@ -60,7 +60,7 @@
    ],
    "fields":[
       {
-         "name":"sect_id",
+         "name":"secteur_id",
          "title":"secteur d’aménagement",
          "description":"identifiant du secteur d’aménagement",
          "example":"78418_SECTEUR_0001",

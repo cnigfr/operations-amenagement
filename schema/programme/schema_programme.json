@@ -60,7 +60,7 @@
    ],
    "fields":[
       {
-         "name":"prog_id",
+         "name":"programme_id",
          "title":"identifiant du programme",
          "description":"identifiant du programme",
          "example":"78418_PROGRAMME_0021",
