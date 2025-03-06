@@ -1141,20 +1141,10 @@
          "example":"territoire engagé pour le logement",
          "type":"string",
          "constraints":{
-            "required":true
-         },
-         "enum":[
-            "fonds friche",
-            "reconversion de friches industrielles issues de sites ICPE",
-            "recyclage foncier",
-            "transformation des zones commerciales",
-            "territoire engagé pour le logement",
-            "action cœur de ville",
-            "petite ville de demain",
-            "aucun",
-            "non renseigné",
-            "autre"
-         ]
+            "required":true, 
+            "pattern": "(?:(?:^|\\|)(fonds friche|reconversion de friches industrielles issues de sites ICPE|recyclage foncier|transformation des zones commerciales|territoire engagé pour le logement|action cœur de ville|petite ville de demain|aucun|non renseigné|autre))+$"
+         }
+        
       },
       {
          "name":"date_approbation_PLH",
