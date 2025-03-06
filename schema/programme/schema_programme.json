@@ -517,19 +517,9 @@
          "example":"étudiants | séniors",
          "type":"string",
          "constraints":{
-            "required":false
-         },
-         "enum":[
-            "personnes en situation de handicap",
-            "jeunes actifs",
-            "étudiants",
-            "seniors",
-            "publics en insertion",
-            "gens du voyage",
-            "mixte",
-            "non renseigné",
-            "autre"
-         ]
+            "required":false,
+            "pattern": "(?:(?:^|\\|)(personnes en situation de handicap|jeunes actifs|étudiants|seniors|publics en insertion|gens du voyage|mixte|non renseigné|autre))+$"
+         }
       },
       {
          "name":"etat_avancement",
