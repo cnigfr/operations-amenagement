@@ -213,5 +213,14 @@
       "NaN",
       "N/A"
    ],
-   "primaryKey":"secteur_id"
+   "primaryKey":"secteur_id",
+   "foreignKeys": [
+          {
+            "fields": "opam_id",
+            "reference": {
+              "resource": "operation-amenagement",
+              "fields": "opam_id"
+            }
+          }
+        ]
 }
