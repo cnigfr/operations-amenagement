@@ -629,22 +629,9 @@
          "example":"parking et stationnement en ouvrage|établissement de service public|équipement culturel",
          "type":"string",
          "constraints":{
-            "required":false
-         },
-         "enum":[
-            "parking et stationnement en ouvrage",
-            "équipement de transport en commun",
-            "établissement d'enseignement ou de recherche",
-            "établissement de santé",
-            "établissement de service public",
-            "équipement sportif",
-            "équipement culturel",
-            "équipement d’action sociale",
-            "équipement de culte",
-            "production d’énergie renouvelable",
-            "non renseigné",
-            "autre"
-         ]
+            "required":false,
+            "pattern": "(?:(?:^|\\|)(parking et stationnement en ouvrage|équipement de transport en commun|établissement d'enseignement ou de recherche|établissement de santé|établissement de service public|équipement sportif|équipement culturel|équipement d’action sociale|équipement de culte|production d’énergie renouvelable|non renseigné|autre))+$"
+         }
       },
       {
          "name":"surf_esp_public",
