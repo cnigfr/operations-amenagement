@@ -518,7 +518,7 @@
          "type":"string",
          "constraints":{
             "required":false,
-            "pattern": "(?:(?:^|\\|)(personnes en situation de handicap|jeunes actifs|étudiants|seniors|publics en insertion|gens du voyage|mixte|non renseigné|autre))+$"
+            "pattern": "(?:(?:^|\\|)(personnes en situation de handicap|jeunes actifs|étudiants|séniors|publics en insertion|gens du voyage|mixte|non renseigné|autre))+$"
          }
       },
       {
