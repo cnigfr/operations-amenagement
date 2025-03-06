@@ -1,5 +1,5 @@
 {
-   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json",
+   "$schema":"https://specs.frictionlessdata.io/schemas/table-schema.json2",
    "name":"SECTEUR",
    "title":"Classe SECTEUR du standard CNIG Opérations d'aménagement",
    "description":"Spécification du fichier d'échange conforme au standard CNIG Opérations d'aménagement pour la classe SECTEUR",
