@@ -514,11 +514,11 @@
          "name":"type_logt_specifique",
          "title":"types de logements spécifiques",
          "description":"types de logements spécifiques",
-         "example":"étudiants | séniors",
+         "example":"étudiants|seniors",
          "type":"string",
          "constraints":{
             "required":false,
-            "pattern": "(?:(?:^|\\|)(personnes en situation de handicap|jeunes actifs|étudiants|séniors|publics en insertion|gens du voyage|mixte|non renseigné|autre))+$"
+            "pattern": "(?:(?:^|\\|)(personnes en situation de handicap|jeunes actifs|étudiants|seniors|publics en insertion|gens du voyage|mixte|non renseigné|autre))+$"
          }
       },
       {
