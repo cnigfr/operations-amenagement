@@ -684,5 +684,21 @@
       "N/A",
       "NC"
    ],
-   "primaryKey":"programme_id"
+   "primaryKey":"programme_id",
+   "foreignKeys": [
+          {
+            "fields": "secteur_id",
+            "reference": {
+              "resource": "secteur",
+              "fields": "secteur_id"
+            }
+          },
+          {
+            "fields": "opam_id",
+            "reference": {
+              "resource": "operation-amenagement",
+              "fields": "opam_id"
+            }
+          }
+        ]
 }
